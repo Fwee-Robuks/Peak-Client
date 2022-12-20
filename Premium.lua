@@ -34,7 +34,7 @@ local Main = Window:CreateTab("Main", 4483362458)
 
 local Section = Main:CreateSection("Main")
 
-local Paragraph = Tab:CreateParagraph({Title = "Paninless V3 | PREMIUM", Content = "Welcome, EvadingArrest"})
+local Paragraph = Main:CreateParagraph({Title = "Paninless V3 | PREMIUM", Content = "Welcome, EvadingArrest"})
 
 local Button = Main:CreateButton({
 	Name = "Destroy",
