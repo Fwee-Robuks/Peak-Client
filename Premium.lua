@@ -219,13 +219,6 @@ local Button = ScriptTab:CreateButton({
 })
 
 local Button = ScriptTab:CreateButton({
-	Name = "Race Car [HATS NEEDED]",
-	Callback = function()
-	    loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
-	end,
-})
-
-local Button = ScriptTab:CreateButton({
 	Name = "Big Box V2 [HATS NEEDED]",
 	Callback = function()
 	    loadstring(game:HttpGet('https://raw.githubusercontent.com/Solomonexy/block/main/MyamazonPackage.lua',true))()
