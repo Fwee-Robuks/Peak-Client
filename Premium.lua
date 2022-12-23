@@ -1,13 +1,13 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
 local Window = Rayfield:CreateWindow({
-	Name = "Inception Hub",
+	Name = "Painless V3 | PREMIUM",
 	LoadingTitle = "Loading FE Scripts",
 	LoadingSubtitle = "We Do A Little Trolling",
 	ConfigurationSaving = {
 		Enabled = true,
 		FolderName = nil, 
-		FileName = "Inception"
+		FileName = "Painless"
 	  },
         Discord = {
         	Enabled = false,
@@ -17,8 +17,8 @@ local Window = Rayfield:CreateWindow({
 	KeySystem = true, 
 	KeySettings = {
 		Title = "Key System",
-		Subtitle = "Please Enter Your Key!",
-		Note = "DM me on discord for your key.",
+		Subtitle = "Welcome To The Key System!",
+		Note = "A premium key costs R$300 robux to purchase it DM Insanity#6969",
 		FileName = "InterceptKey",
 		SaveKey = true,
 		GrabKeyFromSite = false, 
