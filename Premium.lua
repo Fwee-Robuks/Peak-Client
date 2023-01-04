@@ -283,13 +283,6 @@ local Button = brazil:CreateButton({
 })
 
 local Button = brazil:CreateButton({
-	Name = "Lightning Cannon [HATS NEEDED]",
-	Callback = function()
-        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Solomonexy/lightningcannon/main/scripty.lua"))()
-	end,
-})
-
-local Button = brazil:CreateButton({
 	Name = "FE Waiter [HATS NEEDED]",
 	Callback = function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/kakabok1233453/asdasda/main/The Waiter'),true))()
@@ -1196,3 +1189,4 @@ function clerp(c1,c2,al)
  wait(4 / 20)
 	end,
 })
+print("Made By Insanity#6969")
