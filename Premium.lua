@@ -22,7 +22,7 @@ local Window = Rayfield:CreateWindow({
 		FileName = "InterceptKey",
 		SaveKey = true,
 		GrabKeyFromSite = false, 
-		Key = "ohiomoment"
+		Key = "fuckrobloxmoderation"
 		
 
 	}
@@ -34,7 +34,7 @@ local Main = Window:CreateTab("Main", 4483362458)
 
 local Section = Main:CreateSection("Main")
 
-local Paragraph = Main:CreateParagraph({Title = "Paninless V3 | PREMIUM", Content = "Welcome, EvadingArrest"})
+local Paragraph = Main:CreateParagraph({Title = "Paninless V3 | PREMIUM", Content = "Welcome, Insert Epic Name"})
 
 local Button = Main:CreateButton({
 	Name = "Destroy",
