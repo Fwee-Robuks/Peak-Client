@@ -192,6 +192,21 @@ local Button = ScriptTab:CreateButton({
 	end,
 })
 
+
+local Button = ScriptTab:CreateButton({
+	Name = "Ball Spin",
+	Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/EJskzezp')))()
+	end,
+})
+
+local Button = ScriptTab:CreateButton({
+	Name = "Spoodermen",
+	Callback = function()
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Solomonexy/Spooderman/main/swing.lua')))()
+	end,
+})
+
 local Button = ScriptTab:CreateButton({
 	Name = "Hat Orbit",
 	Callback = function()
@@ -318,6 +333,28 @@ local Button = brazil:CreateButton({
 	Name = "SCP 096 [HATS NEEDED]",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Solomonexy/SCP-096/main/Sussy%20SCP.lua"))()
+	end,
+})
+
+local Button = brazil:CreateButton({
+	Name = "Hammer Of Destruction [HATS NEEDED]",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Solomonexy/banhammer/main/getdestroyed.lua"))()
+	end,
+})
+
+
+local Button = brazil:CreateButton({
+	Name = "Bmx Bike [HATS NEEDED]",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Solomonexy/bmx-biek/main/clickfling.lua"))()
+	end,
+})
+
+local Button = brazil:CreateButton({
+	Name = "Sniper Fling [EXECUTE PENDULUM HUB FIRST]",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Solomonexy/SniperFlingV2/main/360NOSCOPE!.lua"))()
 	end,
 })
 
@@ -479,41 +516,6 @@ local Button = hubs:CreateButton({
 	Name = "Septex [PRISON LIFE]",
 	Callback = function()
         game.Players.LocalPlayer:Kick("LMFAO IMAGINE USING SEPTEX YOU SKID 🤡🤡🤡")
-	end,
-})
-
-
--- ONE PUNCH MAN!
-
-
-
-local Button = ScriptTab:CreateButton({
-	Name = "Ball Spin",
-	Callback = function()
-        loadstring(game:HttpGet(('https://pastebin.com/raw/EJskzezp')))()
-	end,
-})
-
-local Button = ScriptTab:CreateButton({
-	Name = "Spoodermen",
-	Callback = function()
-	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Solomonexy/Spooderman/main/swing.lua')))()
-	end,
-})
-
-local Button = brazil:CreateButton({
-	Name = "Bmx Bike [HATS NEEDED]",
-	Callback = function()
-        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Solomonexy/bmx-biek/main/clickfling.lua"))()
-	end,
-})
-
-
-
-local Button = brazil:CreateButton({
-	Name = "Sniper Fling [EXECUTE PENDULUM HUB FIRST]",
-	Callback = function()
-        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Solomonexy/SniperFlingV2/main/360NOSCOPE!.lua"))()
 	end,
 })
 
